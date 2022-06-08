@@ -13,7 +13,7 @@
 		//От кого письмо
 		$mail->setFrom('info@fls.guru', 'Новая заявка');
 		//Кому отправить
-		$mail->addAddress('124qwerty304@gmail.com');
+		$mail->addAddress('code@fls.guru');
 		//Тема письма
 		$mail->Subject = 'Привет! У тебя новая заявка';
 
